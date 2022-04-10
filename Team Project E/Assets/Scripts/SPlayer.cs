@@ -22,6 +22,18 @@ public class SPlayer : MonoBehaviour
             return _Anim;
         }
     }
+    SAnimEvent _animEvent = null;
+    SAnimEvent myAnimEvent
+    {
+        get
+        {
+            if (_animEvent == null)
+            {
+                _animEvent = this.GetComponentInChildren<SAnimEvent>();
+            }
+            return _animEvent;
+        }
+    }
 
     public enum STATE
     {
@@ -58,6 +70,7 @@ public class SPlayer : MonoBehaviour
         switch(myState)
         {
             case STATE.CREATE:
+                myAnimEvent.StandUp += () => OnHide = false;  // 숨은 상태 해제되도록 하는 delegate 전달
                 ChangeState(STATE.PLAY); // 생성후 Play STATE로 변경
                 break;
             case STATE.PLAY:
@@ -76,10 +89,18 @@ public class SPlayer : MonoBehaviour
             case STATE.CREATE:
                 break;
             case STATE.PLAY:
-                hAxis = Input.GetAxis("Horizontal");
-                vAxis = Input.GetAxis("Vertical");
-                Vector3 pos = new Vector3(hAxis, 0, vAxis).normalized;
-                Moving(pos);
+
+                if (!OnHide)  // 숨은 상태가 아닐때만 이동 가능
+                {
+                    hAxis = Input.GetAxis("Horizontal");
+                    vAxis = Input.GetAxis("Vertical");
+                    Vector3 pos = new Vector3(hAxis, 0, vAxis).normalized;
+                    Moving(pos);
+                }
+
+                if(Input.GetKeyDown(KeyCode.Space))
+                Hiding();
+
                 break;
             case STATE.DEATH:
                 break;
@@ -88,13 +109,14 @@ public class SPlayer : MonoBehaviour
 
     public void Hiding()
     {
-        if(OnHide == false)
+        if (OnHide == false)  // 숨지 않은 경우 숨는다
         {
-            if(Input.GetKeyDown(KeyCode.Space))   // 스페이스 바를 눌렀을 때 hiding 작동
-            {
-
-
-            }
+            myAnim.SetTrigger("Hiding");  // Hiding 애니메이션 실행
+            OnHide = true;
+        }
+        else
+        {
+            myAnim.SetTrigger("StandUp");
         }
 
     }
