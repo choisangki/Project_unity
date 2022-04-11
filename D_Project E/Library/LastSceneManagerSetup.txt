@@ -1,5 +1,0 @@
-sceneSetups:
-- path: C:/Users/DW/Documents/GitHub/Project_unity/Team Project E/Assets/Scenes/SampleScene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
