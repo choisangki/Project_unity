@@ -1,17 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SPlayer : MonoBehaviour
 {
     public float MoveSpeed = 5.0f;
+    float OriginMoveSpeed = 5.0f;
+
     float hAxis;
     float vAxis;
 
+    public float Hp = 100.0f;  // player HP
 
     public Transform myPlayer;
     STATE myState = STATE.NONE;
-    bool OnHide = false;
+    public bool OnHide = false;
 
     Animator _Anim = null;
     Animator myAnim
@@ -119,6 +123,21 @@ public class SPlayer : MonoBehaviour
             myAnim.SetTrigger("StandUp");
         }
 
+    }
+
+    IEnumerator SpeedDown(float speed, float time)
+    {
+        if (MoveSpeed > speed)  // 가장 강력한 디버프를 받을 수 있도록 하기 위한 조건
+        {
+            MoveSpeed = speed;
+        }
+        yield return new WaitForSeconds(time);
+        MoveSpeed = OriginMoveSpeed;
+    }
+
+    public void SetSpeed(float speed, float time)
+    {
+        StartCoroutine(SpeedDown(speed, time));
     }
 
 

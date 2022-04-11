@@ -134,7 +134,7 @@ public class SMonster : MonoBehaviour
         */
 
 
-        if(Angle<30.0f)  // 앵글이 -30 ~ 30도 사이일 때
+        if(Angle<30.0f && !Target.GetComponent<SPlayer>().OnHide)  // 앵글이 -30 ~ 30도 사이일 때, 플레이어가 숨지않았을 때
         {
             ChangeState(STATE.FOLLOW); // 상태를 FOLLOW 상태로 변경
         }

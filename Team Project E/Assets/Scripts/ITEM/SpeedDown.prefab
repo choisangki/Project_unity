@@ -59,6 +59,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b437567a1dbce284999c4a0d682f42f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CrashMask:
+    serializedVersion: 2
+    m_Bits: 64
+  Downspeed: 2
+  Duration: 0.5
 --- !u!23 &4215576568252134555
 MeshRenderer:
   m_ObjectHideFlags: 0
