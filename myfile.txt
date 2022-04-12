@@ -1,6 +1,5 @@
 hello my name is XXX
 hello my name is 김규현
-
 hello my name is 강예지
 Hello my name is 이창민
 hello my name is 윤두원
