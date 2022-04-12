@@ -1,71 +1,71 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ko' Physical Memory: 16335 MB
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'ko' Physical Memory: 8150 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files (x86)\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
+D:\Program Files\2020.3.31f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Program Files (x86)/Github/Project_unity_pc/Team Project E
+D:/zUnityteam/Project_unity/Team Project E
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61560
-Successfully changed project path to: D:/Program Files (x86)/Github/Project_unity_pc/Team Project E
-D:/Program Files (x86)/Github/Project_unity_pc/Team Project E
+13195
+Successfully changed project path to: D:/zUnityteam/Project_unity/Team Project E
+D:/zUnityteam/Project_unity/Team Project E
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
-[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Github/Project_unity_pc/Team Project E/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/zUnityteam/Project_unity/Team Project E/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     2007 MB
-    Driver:   30.0.15.1215
+    VRAM:     4018 MB
+    Driver:   30.0.14.7196
 Initialize mono
-Mono path[0] = 'D:/Program Files (x86)/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files (x86)/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files (x86)/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Mono path[0] = 'D:/Program Files/2020.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001793 seconds.
+Register platform support module: D:/Program Files/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002361 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (637ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (480ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (82ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (95ms)
 				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,52 +73,52 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004010 seconds.
+Registered in 0.005124 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image D:\zUnityteam\Project_unity\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.295 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (279ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (864ms)
-			LoadAssemblies (127ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (312ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (317ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (357ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1552 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.7 MB.
-System memory in use after: 75.8 MB.
+System memory in use before: 73.1 MB.
+System memory in use after: 73.2 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1989.
-Total: 2.940700 ms (FindLiveObjects: 0.114600 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.653600 ms  DeleteObjects: 0.123700 ms)
+Total: 2.905300 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.586800 ms  DeleteObjects: 0.105900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,820 +132,433 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Data/Pure Poly/Free Low Poly Nature Pack
-  artifactKey: Guid(7360ae1f5c482b646b121df65df0edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Pure Poly/Free Low Poly Nature Pack using Guid(7360ae1f5c482b646b121df65df0edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5818725a1ccc1d8aa572f3c0ea8558a3') in 0.005599 seconds 
+  path: Assets/[UIFabrica]TrollNest_Free_v01/01.PSD/UIFBRCA_TrollNest_FREE.psd
+  artifactKey: Guid(c8743b49423810a4285c22d2f9cb8d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/01.PSD/UIFBRCA_TrollNest_FREE.psd using Guid(c8743b49423810a4285c22d2f9cb8d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b70bd5f421484823e85d968e25c0dd') in 0.139901 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.057579 seconds.
-  path: Assets/Data/Player.controller
-  artifactKey: Guid(2e994df71c4afaf44a73df5cfc97698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Player.controller using Guid(2e994df71c4afaf44a73df5cfc97698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56bb7bbbad9a3ad1f2b70e1cbdb1450') in 0.086380 seconds 
+  Time since last request: 4.132430 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/All_Elements_2048.png
+  artifactKey: Guid(e8855147999650f4496e8022760ca867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/All_Elements_2048.png using Guid(e8855147999650f4496e8022760ca867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d199cf2ec12350b06af4364b6280ab') in 0.040363 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.127010 seconds.
-  path: Assets/Scripts/Menu
-  artifactKey: Guid(1d0189c50be7e4e068cf133ee2055546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menu using Guid(1d0189c50be7e4e068cf133ee2055546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84082f706d642558bf555a58c7b0e5a0') in 0.005975 seconds 
+  Time since last request: 0.000370 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-normal.png
+  artifactKey: Guid(dd0591d355e19414184fab599d0580b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-normal.png using Guid(dd0591d355e19414184fab599d0580b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9b888a4f929b5050e805467cb5ecb0') in 0.019870 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.878719 seconds.
-  path: Assets/Scripts/Menu/BackButton_L.cs
-  artifactKey: Guid(e66f32d8b683d4ea1ac982dc2db4069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menu/BackButton_L.cs using Guid(e66f32d8b683d4ea1ac982dc2db4069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871c4355e87bbcdb94c71485f02f1980') in 0.019069 seconds 
+  Time since last request: 0.000439 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_onbtn.png
+  artifactKey: Guid(c2c6971fac7d404458c0d682d0ced17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_onbtn.png using Guid(c2c6971fac7d404458c0d682d0ced17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d85e85da72c7031ffe83e9d9430f82a') in 0.022946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.764928 seconds.
-  path: Assets/Scripts/Menu/EndButton_L.cs
-  artifactKey: Guid(d1a435197e8ce4788903e4e9bdaa36c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menu/EndButton_L.cs using Guid(d1a435197e8ce4788903e4e9bdaa36c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e5fa08a642bb0c13f86e2821df00ca') in 0.012937 seconds 
+  Time since last request: 0.000784 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-normal.png
+  artifactKey: Guid(e2e507e989502cb4c8327f70abe65dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-normal.png using Guid(e2e507e989502cb4c8327f70abe65dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a61591b6239d68e762d69831fea011') in 0.021532 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.376321 seconds.
-  path: Assets/Scripts/Menu/Menu_L.cs
-  artifactKey: Guid(5c091c40a463c4140964dc82afb1debb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menu/Menu_L.cs using Guid(5c091c40a463c4140964dc82afb1debb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1ed0fc1107c3698263f1594af6013b') in 0.004189 seconds 
+  Time since last request: 0.000265 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-normal.png
+  artifactKey: Guid(31493ea8cbe776643ac5bbab6bf0b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-normal.png using Guid(31493ea8cbe776643ac5bbab6bf0b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c39443da6bcc9182738716052b2c9e') in 0.021989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.322901 seconds.
-  path: Assets/Scripts/Menu/OptionButton_L.cs
-  artifactKey: Guid(81be2690e3acf4d35ab11145eb72dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menu/OptionButton_L.cs using Guid(81be2690e3acf4d35ab11145eb72dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f66793921f3cca477e72db4a1ed93a') in 0.017429 seconds 
+  Time since last request: 0.000216 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-normal.png
+  artifactKey: Guid(9aaaf14806359914489f3cff61b07c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-normal.png using Guid(9aaaf14806359914489f3cff61b07c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3b3a7c13a369012d578ef7f4d5616d') in 0.017945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 669.400263 seconds.
-  path: Assets/Data
-  artifactKey: Guid(e22ffa1325bd57a468d849820e22b383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data using Guid(e22ffa1325bd57a468d849820e22b383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b560c9f42f4dfd39c8e93f32977a29ad') in 0.011178 seconds 
+  Time since last request: 0.000129 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-over.png
+  artifactKey: Guid(0b8a08d27b7e2e9418c9fa14b897fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-over.png using Guid(0b8a08d27b7e2e9418c9fa14b897fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55227af16a60a9260e05399c7cc44ccc') in 0.018165 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.931037 seconds.
-  path: Assets/Data/Character
-  artifactKey: Guid(de50ff0a0a120c5469478294d8c80aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Character using Guid(de50ff0a0a120c5469478294d8c80aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5743c81b0e19479e23bae9b8f289c1cf') in 0.007263 seconds 
+  Time since last request: 0.000209 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-over.png
+  artifactKey: Guid(674f6de8a21379d4dba58a2f726f658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-over.png using Guid(674f6de8a21379d4dba58a2f726f658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d94295fad77bfdf72ec49b635de49b') in 0.023076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.596500 seconds.
-  path: Assets/Data/Character/Player.prefab
-  artifactKey: Guid(16f6d93a40685504fad2e5468479641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Character/Player.prefab using Guid(16f6d93a40685504fad2e5468479641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671097663ae81c44195347c803434449') in 0.181678 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003878 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (853ms)
-			LoadAssemblies (154ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (314ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
-System memory in use after: 91.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2000.
-Total: 2.998800 ms (FindLiveObjects: 0.114300 ms CreateObjectMapping: 0.045800 ms MarkObjects: 2.802400 ms  DeleteObjects: 0.035400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000126 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-over.png
+  artifactKey: Guid(f123cffe48f7aa64c934c6bb71a905a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-over.png using Guid(f123cffe48f7aa64c934c6bb71a905a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319295be710e4f2ee3160ff49520fd09') in 0.021951 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 284.040523 seconds.
-  path: Assets/Data/Character/Player.prefab
-  artifactKey: Guid(16f6d93a40685504fad2e5468479641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Character/Player.prefab using Guid(16f6d93a40685504fad2e5468479641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd112c0b312b27a0a459fa203bf0ff412') in 0.104719 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004155 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.481 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1482ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1274ms)
-			LoadAssemblies (172ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (662ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
-System memory in use after: 91.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2004.
-Total: 3.373900 ms (FindLiveObjects: 0.119100 ms CreateObjectMapping: 0.048900 ms MarkObjects: 3.183800 ms  DeleteObjects: 0.020900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004862 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.426 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1427ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1202ms)
-			LoadAssemblies (152ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (465ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.1 MB.
-System memory in use after: 91.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2007.
-Total: 3.687200 ms (FindLiveObjects: 0.422500 ms CreateObjectMapping: 0.135400 ms MarkObjects: 3.093600 ms  DeleteObjects: 0.034700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003993 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.374 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1375ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1167ms)
-			LoadAssemblies (144ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (423ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.1 MB.
-System memory in use after: 91.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2010.
-Total: 3.327900 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.057000 ms MarkObjects: 3.096200 ms  DeleteObjects: 0.034100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000341 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-normal.png
+  artifactKey: Guid(b4a21daece1cf8742be134725d7b7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-normal.png using Guid(b4a21daece1cf8742be134725d7b7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980e03e104528b5affebdf860a577133') in 0.022397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 133.622861 seconds.
-  path: Assets/Data/Cartoon Temple Building Kit/Materials/Cartoon Templ Builder Kit.mat
-  artifactKey: Guid(112495ee01e1b834a89c654405f9be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Cartoon Temple Building Kit/Materials/Cartoon Templ Builder Kit.mat using Guid(112495ee01e1b834a89c654405f9be48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a4feb713821805cafa7196767a0b38') in 0.112597 seconds 
+  Time since last request: 0.000267 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-over.png
+  artifactKey: Guid(779741f3070ccc745bf17e71b62d6ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-over.png using Guid(779741f3070ccc745bf17e71b62d6ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1a828ce6bb0408c870c161694b8327') in 0.017734 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000932 seconds.
-  path: Assets/Data/Cartoon Temple Building Kit/Fbx/Blocks/Materials/Cartoon Temple Builder Kit.mat
-  artifactKey: Guid(61d20e250e69d1b46afc5c7b3deb6af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Cartoon Temple Building Kit/Fbx/Blocks/Materials/Cartoon Temple Builder Kit.mat using Guid(61d20e250e69d1b46afc5c7b3deb6af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e5baec92b8047cc839f4c703ee3000') in 0.168461 seconds 
+  Time since last request: 0.000246 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-over.png
+  artifactKey: Guid(a80c3a17e0843fc4c9b8e28deb206fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-over.png using Guid(a80c3a17e0843fc4c9b8e28deb206fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0f94fa4f9d9ac60d3df01f5cf98e3b') in 0.017888 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004400 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1247ms)
-		BeginReloadAssembly (206ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (940ms)
-			LoadAssemblies (208ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2047.
-Total: 2.441200 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.207400 ms  DeleteObjects: 0.036500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-normal.png
+  artifactKey: Guid(38caf1e648012e349b3aa0de15044fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-normal.png using Guid(38caf1e648012e349b3aa0de15044fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd053c3bb854d04357c828f9beb7a646') in 0.016616 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.066087 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1103ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (124ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2050.
-Total: 2.539600 ms (FindLiveObjects: 0.116200 ms CreateObjectMapping: 0.045300 ms MarkObjects: 2.360700 ms  DeleteObjects: 0.016800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-empty.png
+  artifactKey: Guid(43fb8b0cf376ce64fad8c82d4da99977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-empty.png using Guid(43fb8b0cf376ce64fad8c82d4da99977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb410fd52ab055c990695dcaf9af829') in 0.017299 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003871 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1154ms)
-		BeginReloadAssembly (165ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (179ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (301ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2053.
-Total: 3.413100 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.066000 ms MarkObjects: 3.163700 ms  DeleteObjects: 0.020900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-over.png
+  artifactKey: Guid(1a7203e93c4f97b47808e62dd3fca147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-over.png using Guid(1a7203e93c4f97b47808e62dd3fca147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2533fcaad4d11714fc41511bc4fe65af') in 0.018163 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003843 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (835ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2056.
-Total: 3.373500 ms (FindLiveObjects: 0.151900 ms CreateObjectMapping: 0.065600 ms MarkObjects: 3.103900 ms  DeleteObjects: 0.051400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-over.png
+  artifactKey: Guid(b67842072f237164aac498cf81d511f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-over.png using Guid(b67842072f237164aac498cf81d511f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0014fd637ee702f040149f6253b8c7') in 0.018925 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003627 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.023 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2023ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1824ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (892ms)
-			ReleaseScriptCaches (15ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2059.
-Total: 9.357900 ms (FindLiveObjects: 0.137900 ms CreateObjectMapping: 0.056400 ms MarkObjects: 9.141200 ms  DeleteObjects: 0.021300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-over.png
+  artifactKey: Guid(e3082189c71190348804e94d6203ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-over.png using Guid(e3082189c71190348804e94d6203ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f902bfef72bbabfa2b06b13ca264f7fb') in 0.019328 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003952 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1180ms)
-		BeginReloadAssembly (162ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (949ms)
-			LoadAssemblies (149ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (324ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2062.
-Total: 2.340000 ms (FindLiveObjects: 0.123600 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.120700 ms  DeleteObjects: 0.046300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-over.png
+  artifactKey: Guid(ddfe01a858d18844db9e5702b67efa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-over.png using Guid(ddfe01a858d18844db9e5702b67efa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88d183cd7c72345850ab8beff6001ca') in 0.019699 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003486 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Domain Reload Profiling:
-	ReloadAssembly (997ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (801ms)
-			LoadAssemblies (126ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (276ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2065.
-Total: 2.487900 ms (FindLiveObjects: 0.113300 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.310800 ms  DeleteObjects: 0.018800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-over.png
+  artifactKey: Guid(66ec05384b5362949869cd1b1e5b015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-over.png using Guid(66ec05384b5362949869cd1b1e5b015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586aacc3772aa14b41cd44dacdfef2b1') in 0.018982 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003705 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1175ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (125ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (462ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (280ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2068.
-Total: 2.788800 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.493800 ms  DeleteObjects: 0.033900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_offbtn.png
+  artifactKey: Guid(4292237ca655d1249b7ebbba764a9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_offbtn.png using Guid(4292237ca655d1249b7ebbba764a9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d32da72b770b6c2140b959c1dad9b55') in 0.018703 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003692 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\Github\Project_unity_pc\Team Project E\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1063ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (866ms)
-			LoadAssemblies (130ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (273ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1533 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 2.865600 ms (FindLiveObjects: 0.118200 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.661800 ms  DeleteObjects: 0.041800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-press.png
+  artifactKey: Guid(2c21aa7c66a1643418c522104261a65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-press.png using Guid(2c21aa7c66a1643418c522104261a65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496a31b8853a2ca0a05c01befa1a891b') in 0.016733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-normal.png
+  artifactKey: Guid(abfa4d769cdc5924e9dfe30e2cbb202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-normal.png using Guid(abfa4d769cdc5924e9dfe30e2cbb202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a05c4c6fe04d180dd508b8e97b071a') in 0.015686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-empty.png
+  artifactKey: Guid(eed890db0db29b94bbd03bf1dc1f1b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-empty.png using Guid(eed890db0db29b94bbd03bf1dc1f1b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2165d398e353e68ec5043b2b991c7fa5') in 0.015587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-over.png
+  artifactKey: Guid(300dc50a65fe6ed429c09b83f6834fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-over.png using Guid(300dc50a65fe6ed429c09b83f6834fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66f25b5fefadca2fa5a6e416fd6a550') in 0.015215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-normal.png
+  artifactKey: Guid(e412664ccf4bdc44ca856aedb75cdb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-normal.png using Guid(e412664ccf4bdc44ca856aedb75cdb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86078830717622074f988bf96849d29b') in 0.015951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-over.png
+  artifactKey: Guid(8c832268c57898f45811ec3bc07e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-over.png using Guid(8c832268c57898f45811ec3bc07e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcfcaf9d9857f93abe7094c7bfa21ce') in 0.020585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-normal.png
+  artifactKey: Guid(c6a0ff9ab2cb93840a2f1a557bcec250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-normal.png using Guid(c6a0ff9ab2cb93840a2f1a557bcec250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30183d1fce9135f710fb4c458e3684dc') in 0.016922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-normal.png
+  artifactKey: Guid(6d08429117dc53a4bbdec8f5c7613099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-normal.png using Guid(6d08429117dc53a4bbdec8f5c7613099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97feecc8858c4a3a8fe7387bdbad0b93') in 0.016578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-normal.png
+  artifactKey: Guid(0c8e23f88da510545b9a5fe7dbdff39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-normal.png using Guid(0c8e23f88da510545b9a5fe7dbdff39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90a8b60fa1143ee98b7b9e9993f059f') in 0.017524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-normal.png
+  artifactKey: Guid(76c9765e15d459f4eab851cdde7c8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-normal.png using Guid(76c9765e15d459f4eab851cdde7c8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15d0ea53bc66cc5d10189d8874c9880') in 0.016337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-normal.png
+  artifactKey: Guid(6c3e0432b93e9ae478671adf1bea90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-normal.png using Guid(6c3e0432b93e9ae478671adf1bea90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d6b5d8ae22c65ffac71ce4fb2d2251') in 0.018444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-press.png
+  artifactKey: Guid(a0947f3d500fe0d4d821539da42fee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-press.png using Guid(a0947f3d500fe0d4d821539da42fee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6dc6c167d9521dac81d47bdf3dfe2d') in 0.014405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-normal.png
+  artifactKey: Guid(df2e1f3d288f06d49971e50e7ff54c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-normal.png using Guid(df2e1f3d288f06d49971e50e7ff54c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2d99c6fcdcc9b743853e74ce1e0f31') in 0.017844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-over.png
+  artifactKey: Guid(39be3f6801b282f48a2285342f12b1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-over.png using Guid(39be3f6801b282f48a2285342f12b1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34d7e84581b94290bf6e1d887a5f1fa') in 0.016800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-normal.png
+  artifactKey: Guid(d9272968eef00924d9ca512ec3795150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-normal.png using Guid(d9272968eef00924d9ca512ec3795150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6642b6a4d5081f59339f176942a67f5') in 0.017458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-over.png
+  artifactKey: Guid(56dfb83e768393d4caf2fb24cd36bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-over.png using Guid(56dfb83e768393d4caf2fb24cd36bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069e971fae3fb461b0dc3179a158e469') in 0.016097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001538 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-over.png
+  artifactKey: Guid(198bb96faa505eb458d7bb77cd2f355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-over.png using Guid(198bb96faa505eb458d7bb77cd2f355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43c06ce79b62653d91a6fb4350b1c4f') in 0.018421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-over.png
+  artifactKey: Guid(10b32c969410d954d8e1ecd8ae4d985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-over.png using Guid(10b32c969410d954d8e1ecd8ae4d985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1afb7fdef5787b00e62e1e8fb0a46f') in 0.019234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-normal.png
+  artifactKey: Guid(e9d588698d08c4547bafaa8c6141d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-normal.png using Guid(e9d588698d08c4547bafaa8c6141d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea00e7c7d320e6d90ccd49d153f4041') in 0.019899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.818992 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/03.Preview/UIFBRCA_TrollNest_FREE.jpg
+  artifactKey: Guid(c2be65cd40870ab4b92ce0a314c3870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/03.Preview/UIFBRCA_TrollNest_FREE.jpg using Guid(c2be65cd40870ab4b92ce0a314c3870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7593db7da11afe0d03515b2155e0ddb3') in 0.025811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.274337 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/04.Tips&Tricks/Change_Color.wmv
+  artifactKey: Guid(5a1a3968b2206ac49b381d380aa59eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/04.Tips&Tricks/Change_Color.wmv using Guid(5a1a3968b2206ac49b381d380aa59eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fa955ec3f377450fbfe2fa973ca379') in 0.019061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.069697 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/05.FONT/Glue Gun.otf
+  artifactKey: Guid(83b2fa31225dea147813a41568821134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/05.FONT/Glue Gun.otf using Guid(83b2fa31225dea147813a41568821134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af05bf4b2a5b38be2b564d08226b3ebd') in 0.053730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.628418 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/06.DOCS/README.jpg
+  artifactKey: Guid(6cb4f552c4a1e5348a6c6c127788a837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/06.DOCS/README.jpg using Guid(6cb4f552c4a1e5348a6c6c127788a837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38251dcd5e6d27d12d3d1ac30f7bf9dc') in 0.015769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.687801 seconds.
+  path: Assets/[UIFabrica]TrollNest_Free_v01/DemoScene.unity
+  artifactKey: Guid(6640c11032f09ef409d8de1624ca2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01/DemoScene.unity using Guid(6640c11032f09ef409d8de1624ca2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8008d8024c6141492d31b65369bf71e') in 0.004163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.101139 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc71a41076ee17b7f45a64667c7c49af') in 0.044976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
+  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b95dc70c4761102486889f25995ca2b') in 0.032130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
+  artifactKey: Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png using Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bf9874d2cac2c61297955dd0fa4082') in 0.030966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
+  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c338209b75905d80d011e05bf43d30') in 0.036629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7a1e0a15dba311023446deaaeeaefb') in 0.020056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
+  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f510fd8953ec0742b57cbc5448b18358') in 0.020193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
+  artifactKey: Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png using Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f333677d2dce32fc03dc422f7bebd8') in 0.022458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
+  artifactKey: Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png using Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ed2ad0272a9c88368f503a58fcecdb') in 0.026191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1deb18f3dce81fdafd9c9449e16bafb1') in 0.026439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
+  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002ccffd166a6011484fb7af7b2c3e64') in 0.020430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
+  artifactKey: Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png using Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c635928dd6c45b2b0b08fed77e03e76a') in 0.018968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
+  artifactKey: Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png using Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2919c40317eefe973d342f89164a3a5b') in 0.017010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
+  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f8ae6857d288778af0f2f6a7af4775') in 0.016330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
+  artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b52e53844c78d6a5609db1a64e95a0') in 0.015243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
+  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5339b09558fbb32b2e46e4da01b82868') in 0.016709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
+  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631f8c87a53d15c9a3f65b6acce4c6dd') in 0.017821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
+  artifactKey: Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png using Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc981e36d5070f3508ef1ffa339145cd') in 0.018764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a43114d2552c5179f5f1188f36edf3e') in 0.017836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
+  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23529dc5c806c759615dab3ecd01b7e') in 0.015161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
+  artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57caf38dafa95ed97430d6e3f584e98') in 0.015360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
+  artifactKey: Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png using Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b96460367b8355b6346f0f4ae484e52') in 0.017650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
+  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bab3a3cfc90a2180fc269c76c7242b') in 0.017621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
+  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74feb65c8fbbc84ad81a9d650d5654c9') in 0.017801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6b98e042295c6a921b91c35e424865') in 0.016415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
+  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6e7ad6b14d6a5cc7f911ba04c83007') in 0.019807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
+  artifactKey: Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png using Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954454508c31ae9b4f2b23e6eb962753') in 0.014613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
+  artifactKey: Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png using Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edc9d480d3a2eeb5050b58c0f8bb567') in 0.017904 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
